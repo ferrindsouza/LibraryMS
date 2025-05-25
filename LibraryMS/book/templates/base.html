@@ -1,0 +1,29 @@
+{% load static %}
+{% static 'styles' as baseUrl %}
+{% static 'images' as pics %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+<meta charset="UTF-8">
+<title>Base Page</title>
+<link rel="stylesheet" type="text/css" href="{{baseUrl}}/bknavstyle.css">
+<link rel="stylesheet" type="text/css" href="{{baseUrl}}/searchbooksstyle.css">
+
+</head>
+<body>
+<div class="topnav">
+
+<!--	<a href="/bookorders/checkaccount/">Check Account</a>-->
+
+<a href="upload_book">Upload Books</a>
+<img class="logo" src="{{pics}}/websitelogo2.png" alt="Library Logo">
+<a class="active" href="/book/search_books">Search Books</a>
+<a href="homepage">Home</a>
+</div>
+{% block content %}
+
+{% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% for bk in books %}
+
+{% csrf_token %}
+
+
+<div class="column">
+    <div class="content">
+        <a href="book_info/{{bk.book_id}}" > 
+            <img src="{{bk.book_img.url}}" alt="Sorry" width="200" height="308" title="CLICK ON IMAGE TO VIEW INFO" >
+        </a>
+        {% if bk.isissued == False %}
+        <br><a href="update/{{bk.book_id}}" style="color: red; text-decoration: none; text-transform: uppercase; text-decoration: none; text-transform: uppercase;">{{bk.issue}}&emsp;&emsp;</a>&emsp;<a href="delete/{{bk.book_id}}" style="color: red; text-decoration: none;text-transform: uppercase; text-decoration: none; text-transform: uppercase;">Delete book</a>
+        {% else %}
+        <br><a href="#" style="color: red; text-decoration: none;text-transform: uppercase; text-decoration: none; text-transform: uppercase;">Book Issued to this user</a>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
+<!--	Add div tag here to make issue lighter and make it as button -->
+<br>
+
+{% endblock %}

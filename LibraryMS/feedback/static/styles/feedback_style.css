@@ -1,0 +1,11 @@
+body {
+    background-image: url('/static/images/feedback_backgroundimg.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%; 
+    text-align: center;
+    }
+    form {
+        display: inline-block;
+    }
+    

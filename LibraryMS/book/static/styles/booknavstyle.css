@@ -1,0 +1,36 @@
+body {
+    background-image: url('/book/static/images/backgroundimg.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    }
+    
+    .topnav {
+    background-color: #990000; 
+    overflow: hidden;
+    }
+    
+    .topnav a { 
+        float:right; 
+        color: #000000;
+        text-align: center; 
+        padding: 14px 16px; 
+        text-decoration: none; 
+        font-size: 17px;
+    }
+    
+    .topnav a:hover {
+        background-color: #ff6600; 
+        color: black;
+    }
+    
+    .topnav a.active { 
+        color: white;
+    }
+    
+    .topnav img.logo { 
+        float: left;
+        width: 98px; 
+        height: 50px;
+    }
+    

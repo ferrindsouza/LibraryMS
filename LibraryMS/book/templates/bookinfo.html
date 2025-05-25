@@ -1,0 +1,25 @@
+{% load static %}
+{% static 'styles' as baseUrl %}
+{% static 'images' as pics %}
+{% static 'js' as javas %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<link rel="stylesheet" type="text/css" href="{{baseUrl}}/bookinfostyle.css">
+
+</head>
+<body>
+
+
+<div class="content">
+
+
+<img src="{{book_info.book_img.url}}" alt="BookPic" class="left">
+<p>{{book_info.description}}</p>
+
+</div>
+ 
+</body>
+</html>

@@ -1,0 +1,28 @@
+span a {
+    background-color: red; 
+    color: white;
+    padding: 1em 11em; 
+    text-decoration: none;
+    text-transform: uppercase; 
+    width: 25%;
+    float: left;
+    }
+
+    .column { 
+        float: left;
+        width: 33.33%; 
+        padding: 5px;
+    }
+
+    .row:after { 
+        content: ""; 
+        display: table; 
+        clear: both;
+    }
+
+    .content {
+        background-color: white; 
+        padding: 10px;
+    }
+    
+    
