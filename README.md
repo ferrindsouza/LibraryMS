@@ -77,13 +77,15 @@ library-management/
 ## 📸 Screenshots
 
 ### 🔐 Login Page
-![Login Page](screenshots/login_page.png)
+![Login Page](screenshots/login_page.jpeg)
 
-### 📚 Book List
-![Book List](screenshots/book_list.png)
+### 📚 Search Books
+![Search Books](screenshots/search_books.png)
 
-### 📝 Feedback Form
-![Feedback Form](screenshots/feedback_form.png)
+### 🔐 Site Admin Page
+![Site Admin](screenshots/site_admin.jpeg)
+
+*Note: Other screenshots can be found under screenshots folder. There might be some discrepencies in the code as its an old project.* 
 
 ## License
 This project is licensed under the MIT License – see the LICENSE file for details.
