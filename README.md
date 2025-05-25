@@ -27,7 +27,7 @@ The system is composed of **four core Django apps**:
 
 - **Backend**: Python, Django
 - **Frontend**: HTML, CSS, Django Templates
-- **Database**: SQLite (default Django database)
+- **Database**: PostgreSQL (default Django database)
 - **Other**: Bootstrap (optional), Django Admin
 
 ## Getting Started
